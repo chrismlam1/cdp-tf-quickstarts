@@ -8,7 +8,7 @@
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.7 |
 | <a name="requirement_azuread"></a> [azuread](#requirement\_azuread) | >= 2.46.0, < 4.0.0 |
 | <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | >= 4.0.0 |
-| <a name="requirement_cdp"></a> [cdp](#requirement\_cdp) | >= 0.6.1, < 0.10.8 |
+| <a name="requirement_cdp"></a> [cdp](#requirement\_cdp) | >= 0.6.1 |
 | <a name="requirement_http"></a> [http](#requirement\_http) | ~> 3.2.1 |
 | <a name="requirement_local"></a> [local](#requirement\_local) | ~> 2.5.1 |
 | <a name="requirement_tls"></a> [tls](#requirement\_tls) | ~> 4.0.5 |
@@ -25,8 +25,8 @@
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_cdp_azure_prereqs"></a> [cdp\_azure\_prereqs](#module\_cdp\_azure\_prereqs) | git::https://github.com/cloudera-labs/terraform-cdp-modules.git//modules/terraform-cdp-azure-pre-reqs | v0.12.1 |
-| <a name="module_cdp_deploy"></a> [cdp\_deploy](#module\_cdp\_deploy) | git::https://github.com/cloudera-labs/terraform-cdp-modules.git//modules/terraform-cdp-deploy | v0.12.1 |
+| <a name="module_cdp_azure_prereqs"></a> [cdp\_azure\_prereqs](#module\_cdp\_azure\_prereqs) | git::https://github.com/cloudera-labs/terraform-cdp-modules.git//modules/terraform-cdp-azure-pre-reqs | v0.12.2 |
+| <a name="module_cdp_deploy"></a> [cdp\_deploy](#module\_cdp\_deploy) | git::https://github.com/cloudera-labs/terraform-cdp-modules.git//modules/terraform-cdp-deploy | v0.12.2 |
 
 ## Resources
 

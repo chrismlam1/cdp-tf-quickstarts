@@ -7,7 +7,7 @@
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.7 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~>5.30 |
-| <a name="requirement_cdp"></a> [cdp](#requirement\_cdp) | >= 0.6.1, < 0.10.8 |
+| <a name="requirement_cdp"></a> [cdp](#requirement\_cdp) | >= 0.6.1 |
 | <a name="requirement_http"></a> [http](#requirement\_http) | ~> 3.2.1 |
 | <a name="requirement_local"></a> [local](#requirement\_local) | ~> 2.5.1 |
 | <a name="requirement_tls"></a> [tls](#requirement\_tls) | ~> 4.0.5 |
@@ -17,7 +17,7 @@
 | Name | Version |
 |------|---------|
 | <a name="provider_aws"></a> [aws](#provider\_aws) | ~>5.30 |
-| <a name="provider_cdp"></a> [cdp](#provider\_cdp) | >= 0.6.1, < 0.10.8 |
+| <a name="provider_cdp"></a> [cdp](#provider\_cdp) | >= 0.6.1 |
 | <a name="provider_http"></a> [http](#provider\_http) | ~> 3.2.1 |
 | <a name="provider_local"></a> [local](#provider\_local) | ~> 2.5.1 |
 | <a name="provider_tls"></a> [tls](#provider\_tls) | ~> 4.0.5 |
@@ -26,8 +26,8 @@
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_cdp_aws_prereqs"></a> [cdp\_aws\_prereqs](#module\_cdp\_aws\_prereqs) | git::https://github.com/cloudera-labs/terraform-cdp-modules.git//modules/terraform-cdp-aws-pre-reqs | v0.12.1 |
-| <a name="module_cdp_deploy"></a> [cdp\_deploy](#module\_cdp\_deploy) | git::https://github.com/cloudera-labs/terraform-cdp-modules.git//modules/terraform-cdp-deploy | v0.12.1 |
+| <a name="module_cdp_aws_prereqs"></a> [cdp\_aws\_prereqs](#module\_cdp\_aws\_prereqs) | git::https://github.com/cloudera-labs/terraform-cdp-modules.git//modules/terraform-cdp-aws-pre-reqs | v0.12.2 |
+| <a name="module_cdp_deploy"></a> [cdp\_deploy](#module\_cdp\_deploy) | git::https://github.com/cloudera-labs/terraform-cdp-modules.git//modules/terraform-cdp-deploy | v0.12.2 |
 
 ## Resources
 
